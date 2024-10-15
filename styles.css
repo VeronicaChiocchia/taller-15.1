@@ -1,0 +1,19 @@
+/* #paragraphs */
+
+.dropdown-menu {
+    z-index: 1050;
+    /* position: absolute; */
+}
+
+#dropdown-container {
+    z-index: 1060;
+    position: absolute;
+    width: 98%;
+    left: 50%;         /* Position from the left edge of the viewport */
+    transform: translateX(-50%); /* Move left by 50% of its own width */
+    padding: 0;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
